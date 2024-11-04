@@ -77,6 +77,6 @@ classdef testGetLongProcessingDurations < matlab.unittest.TestCase
             % Tear down with testCase.addTeardown.
             testCase.addTeardown(@clear,"entryTimestamps exitTimestamps");
         end
-        
+         
     end
 end
